@@ -3,7 +3,7 @@
 errorpanic It is a simple golang wrapper for functions which may panic.
 
 * Synchronous call.
-* For functions which should return errors.
+* For functions which may return errors.
 * If panic happens, it will be handled as an error with the help of the `recover` function
 * Error typed panics are supported `panic(err)`
 
@@ -12,7 +12,7 @@ errorpanic It is a simple golang wrapper for functions which may panic.
 Standard `go get`:
 
 ```
-$ go get github.com/tinysystemsio/errorpanic
+go get github.com/tinysystemsio/errorpanic
 ```
 
 ## Usage & Example
