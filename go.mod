@@ -1,3 +1,3 @@
-module github.com/tinysystemsio/errorpanic
+module github.com/tiny-systems/errorpanic
 
 go 1.19
