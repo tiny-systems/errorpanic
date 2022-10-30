@@ -12,7 +12,7 @@ errorpanic It is a simple golang wrapper for functions which may panic.
 Standard `go get`:
 
 ```
-go get github.com/tinysystemsio/errorpanic
+go get github.com/tiny-systems/errorpanic
 ```
 
 ## Usage & Example
